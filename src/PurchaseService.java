@@ -51,7 +51,7 @@ public class PurchaseService {
                 budgetSpentToday += selectedProduct.getPrice();
                 if (budgetSpentToday >= BUDGET_LIMIT_PER_DAY) {
                     System.out.println("Budget limit reached for today.");
-                    break; // Exit loop to simulate end of the day
+                    break;
                 }
             }
         }
